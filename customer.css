@@ -4,11 +4,11 @@
 }
 #nav-bar
 {
-	background-color:#333;
+	background-color:#000000;
 	position: sticky;
 	top:0;
 	z-index:10;
-	float: center;
+	float: right;
 }
 .navbar
 {
@@ -46,7 +46,7 @@ text-align:left;
 #main
 {
 	text-align: center;
-background-color: #99ccff;
+background-color: #80e5ff;
 }
 .my-info{
     padding: 2rem 5rem;
@@ -66,6 +66,20 @@ background-color: #99ccff;
 }
 .table-responsive{
     background-color: black;
-    padding: 5px;
-    border-radius: 10px;
+    
+    border-radius: 10px,black;
+
 }
+.table-responsive,th,td{
+    border: 1px solid black;
+}
+.table{
+    background-color:  #b3cccc;
+    margin: auto;
+    width: 100%;
+    line-height: 1.6em;
+    font-size: 16px;
+    text-align: center;
+    background-position: center;
+}
+
